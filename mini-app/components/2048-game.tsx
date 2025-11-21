@@ -153,7 +153,7 @@ export default function Game2048() {
           </Button>
         </div>
         {gameOver && (
-          <Share text={shareText} className="mt-4" />
+          <Share text={shareText} />
         )}
       </div>
     </div>
